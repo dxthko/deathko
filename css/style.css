@@ -1,0 +1,39 @@
+@import url(./_reset.css);
+
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/bgsky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-logo {
+  position: absolute;
+  width: 40rem;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-medias {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-soundcloud {
+  width: 5rem;
+  margin-right: 2rem;
+  filter: drop-shadow(2px 2px #898caf);
+}
+
+.main-spotify {
+  width: 4rem;
+  margin-right: 2rem;
+  filter: drop-shadow(2px 2px #898caf);
+}
