@@ -24,34 +24,11 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 1rem;
 }
 
-.main-soundcloud {
-  width: 5rem;
-  margin-right: 2rem;
-  filter: drop-shadow(2px 2px #898caf);
-}
-
-.main-spotify {
-  width: 3.5rem;
-  margin-right: 2rem;
-  filter: drop-shadow(2px 2px #898caf);
-}
-
-.main-bandcamp {
-  width: 3.5rem;
-  margin-right: 2rem;
-  filter: drop-shadow(2px 2px #898caf);
-}
-
-.main-youtube {
-  width: 4rem;
-  margin-right: 2rem;
-  filter: drop-shadow(2px 2px #898caf);
-}
-
-.main-instagram {
-  width: 3.5rem;
-  margin-right: 2rem;
-  filter: drop-shadow(2px 2px #898caf);
+.link-medias {
+  font-size: 3rem;
+  margin-right: 1.5rem;
+  filter: drop-shadow(3px 3px #898caf);
 }
