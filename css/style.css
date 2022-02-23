@@ -29,6 +29,17 @@
 
 .link-medias {
   font-size: 3rem;
-  margin-right: 1.5rem;
   filter: drop-shadow(3px 3px #898caf);
+  margin-right: 1.2rem;
+}
+
+.link-icons {
+  color: white;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(18, 214, 223, 1) 0%,
+    rgba(239, 144, 242, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
