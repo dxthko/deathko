@@ -12,7 +12,7 @@
 .main-logo {
   position: absolute;
   width: 40rem;
-  top: 35%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -33,7 +33,25 @@
 }
 
 .main-spotify {
+  width: 3.5rem;
+  margin-right: 2rem;
+  filter: drop-shadow(2px 2px #898caf);
+}
+
+.main-bandcamp {
+  width: 3.5rem;
+  margin-right: 2rem;
+  filter: drop-shadow(2px 2px #898caf);
+}
+
+.main-youtube {
   width: 4rem;
+  margin-right: 2rem;
+  filter: drop-shadow(2px 2px #898caf);
+}
+
+.main-instagram {
+  width: 3.5rem;
   margin-right: 2rem;
   filter: drop-shadow(2px 2px #898caf);
 }
