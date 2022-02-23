@@ -9,12 +9,37 @@
   background-size: cover;
 }
 
-.main-logo {
+.main-title {
   position: absolute;
-  width: 40rem;
   top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Techno';
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(18, 214, 223, 1) 0%,
+    rgba(208, 150, 231, 1) 50%,
+    rgba(243, 91, 247, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: spacing 2s forwards;
+}
+
+@keyframes spacing {
+  0% {
+    letter-spacing: 0;
+    opacity: 0;
+  }
+
+  100% {
+    letter-spacing: 1rem;
+    opacity: 1;
+  }
 }
 
 .main-medias {
@@ -44,4 +69,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+}
+
+.link-icons:hover {
+  transform: scale(1.2);
+  transition: 0.5;
 }
