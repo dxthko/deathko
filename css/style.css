@@ -4,8 +4,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url(/assets/bgsky.jpg);
-  background-repeat: no-repeat;
+  background: url(/assets/bgsky.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -54,7 +53,6 @@
 
 .link-medias {
   font-size: 3rem;
-  filter: drop-shadow(3px 3px #898caf);
   margin-right: 2rem;
 }
 
@@ -85,4 +83,5 @@
 .link-icons:hover {
   transform: scale(1.1);
   transition: ease-in 0.5s;
+  filter: drop-shadow(3px 3px #72d3fe);
 }
