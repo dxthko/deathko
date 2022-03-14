@@ -1,10 +1,11 @@
 @import url(./_reset.css);
 
-.main {
-  position: relative;
-  width: 100vw;
+.main-inicio {
+  background-image: url(/assets/bgsky.jpg);
   height: 100vh;
-  background: url(/assets/bgsky.jpg) no-repeat;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
