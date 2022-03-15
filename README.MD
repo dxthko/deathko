@@ -1,8 +1,8 @@
-## ✍️ DEATHKO's LANDING PAGE
+## ✍️ DEATHKO's landing page
 
 Nesse projeto decidi criar uma landing page para meu projeto musical, e também meu hobbie preferido, chamado [DEATHKO](https://soundcloud.com/dxthko). Aqui resolvi praticar algumas estilizações com CSS e também usei animações com keyframes. Pretendo adicionar mais seções no site, uma para cada música que lancei, e também penso em usar animações feitas com JavaScript.
 
-## 💻 TECNOLOGIAS
+## 💻 Tecnologias
 
 - HTML
 - CSS
